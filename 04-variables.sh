@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #declaring of varible
-Person1=Lakshman
-Person2=kmk
+Person1=$1
+Person2=$2
 
 
 echo "$Person1:: hello $Person2; how are you?"
