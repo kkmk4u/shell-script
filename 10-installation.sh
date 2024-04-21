@@ -19,6 +19,6 @@ then
      exit 1
 fi     
 
-dng install git -y
+dnf install git -y
 
 echo "is script proceeding?"
