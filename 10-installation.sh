@@ -3,12 +3,12 @@
 
 USERID=$(id -u)
 
-if [ $USERId -ne 0]
+if [ $USERID -ne 0]
 then
     echo "Please run this script with root access."
     exit 1 # manually exit if error comes.
 else
-    echo "you are super user."
+    echo "You are super user."
 fi
 
 dnf install mysql -y
