@@ -6,6 +6,7 @@ USERID=$(id -u)
 if [ $USERId -ne 0]
 then
     echo "Please run this script with root access."
+    exit 1# manually exit if error comes.
 else
     echo "you re super user."
 fi
